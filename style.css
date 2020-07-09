@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Raleway:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    background-color: wheat;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    max-height: 100vh;
+}
+
+header {
+    font-family: 'Playball', cursive;
+    max-height: 50%;
+    background-color: rgba(245, 245, 245, 0.527);
+    text-align: center;
+    color: rgb(54, 54, 54);
+    padding: 5%;
+    margin-bottom: 15%;
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+header h2 {
+    font-size: 2em;
+    margin-top: 0.5em;;
+}
+.menu-list {
+    margin-bottom: 12em;
+    text-align: center;
+}
+
+.menu-list a {
+    padding: 3em;
+    background-color: rgba(255, 223, 164, 0.774);
+    border-radius: 8px;
+    margin: auto;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    margin: 3em;
+    font-size: 1.3em;
+}
+
+.menu-list li,#contato li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#sobre h2 {
+    margin-top: 5em;
+    color: rgb(54, 54, 54);
+    font-family: 'Playball', cursive;
+    font-size: 3em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+#foto {
+    float: right;
+    margin: 3em;
+}
+
+.sobre-text {
+    margin: 5em;
+    line-height: 2em;
+    text-align: justify;
+}
+
+.sobre-text h3 {
+    color:rgb(54, 54, 54);
+    font-weight: bold;
+}
+
+.sobre-text li {
+    margin-left: 2em;
+}
+#portifolio {
+    text-align: center;
+}
+#portifolio h2 {
+    margin-top: 5em;
+    color: rgb(54, 54, 54);
+    font-family: 'Playball', cursive;
+    font-size: 3em;
+    margin: 0.5em;
+}
+
+#portifolio h3 {
+    color:rgb(54, 54, 54);
+    font-weight: bold;
+    margin: 1em;
+}
+
+#portifolio img {
+    margin: 1em;
+}
+
+#contato {
+    margin: 2em;
+    text-align: center;
+}
+
+#contato h2 {
+    margin-top: 5em;
+    color: rgb(54, 54, 54);
+    font-family: 'Playball', cursive;
+    font-size: 3em;
+    margin: 0.5em;
+}
+
+#contato li {
+    padding: 2em;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin: 2em;
+}
+
+#contato li a {
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    font-size: 1.5em;
+}
